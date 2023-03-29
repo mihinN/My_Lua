@@ -77,7 +77,10 @@ repeat
     y =y+1;
 until y>10
 
+-- io read
 
+local getting_input = io.read();
+print(getting_input)
 
 
 
