@@ -9,3 +9,12 @@ end
 local execute = newfunc();
 print(execute())
 print(execute())
+print(execute())
+print(execute())
+print(execute())
+print(execute())
+print(execute())
+print(execute())
+
+
+
