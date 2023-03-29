@@ -71,11 +71,11 @@ for i=1,#my_array do
 end
 
 -- repeat 
-local y = 0
+local y = 1
 repeat 
     print(" Hello world !")
-    y =+ 1;
-until y<10
+    y =y+1;
+until y>10
 
 
 
