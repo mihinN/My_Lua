@@ -78,10 +78,14 @@ repeat
 until y>10
 
 -- io read
-
+print("what is 10+5");
 local getting_input = io.read();
 print(getting_input)
-
+    if getting_input ~= 15 then 
+        print("you are wrong")
+    else 
+        print("you are correct buddy")
+    end
 
 
 
