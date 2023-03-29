@@ -1,17 +1,13 @@
--- function section 
-
-local function getDisplay()
-    print("welcome to my programme !")
-    print("Hello world !")
-end
-getDisplay()
-getDisplay()
-
--- recursion 
+ 
 local function func1(count,end_number)
     local my_count = count +1
+     if (my_count<end_number) then
+        print(my_count)
+        return func1(count,end_number) 
+     end
+
     return my_count
+end
 
-print(func1(10,20))
-
+func1(10,20)
 
