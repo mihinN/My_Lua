@@ -78,9 +78,9 @@ repeat
 until y>10
 
 -- io read
-print("what is 10+5");
-local getting_input = io.read();
-print(getting_input)
+io.write("What is 10 +5 : \n ANswer -> ")
+local getting_input = tonumber(io.read());
+print(type(getting_input))
     if getting_input ~= 15 then 
         print("you are wrong")
     else 
