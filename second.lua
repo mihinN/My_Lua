@@ -70,6 +70,12 @@ for i=1,#my_array do
     print(my_array[i])
 end
 
+-- repeat 
+
+repeat 
+    print("hello world !")
+until false
+
 
 
 
