@@ -71,12 +71,11 @@ for i=1,#my_array do
 end
 
 -- repeat 
-
+local y = 0
 repeat 
-    print("hello world !")
-until false
-
-
+    print(" Hello world !")
+    y =+ 1;
+until y<10
 
 
 
